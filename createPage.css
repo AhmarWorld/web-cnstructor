@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: 890px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+.preview{
+    width: 70%;
+    border: 2px solid gray;
+    box-shadow: 0 0 3px gray;
+}
+.components{
+    padding: 20px;
+    width: 20%;
+    border: 2px solid gray;
+    box-shadow: 0 0 3px gray;
+}
