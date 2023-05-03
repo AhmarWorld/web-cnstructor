@@ -13,6 +13,11 @@ const selectComponent = index => {
 
 const savePage = () => {
     let pagesArray = JSON.parse(localStorage.getItem("pages")) || [];
+    for(let item of pagesArray){
+        if(document.querySelector("#page_title").value == item.title){
+            return alert(`Страница с таким название уже есть!`)
+        }
+    }
     pagesArray.push({
         title: document.querySelector("#page_title").value,
         html: previewBox.innerHTML,
