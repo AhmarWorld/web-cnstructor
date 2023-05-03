@@ -2,22 +2,28 @@ body{
     padding: 0;
     margin: 0;
 }
-.container{
+
+#container{
     width: 80%;
-    margin: auto;
-    height: 890px;
+    margin: 0 auto;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
-    padding: 0 2%;
+    padding: 2%;
+    box-sizing: border-box;
 }
-.preview{
+
+#preview{
     width: 70%;
-    border: 2px solid gray;
-    box-shadow: 0 0 3px gray;
+    border: 2px solid grey;
+    box-shadow: 0 0 3px grey;
 }
-.components{
-    padding: 20px;
+
+#components{
     width: 20%;
-    border: 2px solid gray;
-    box-shadow: 0 0 3px gray;
+    border: 2px solid grey;
+    box-shadow: 0 0 3px grey; 
+    padding: 0 2%;
+    box-sizing: border-box;
+    font-weight: 700;
 }
